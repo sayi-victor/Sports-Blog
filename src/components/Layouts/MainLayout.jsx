@@ -1,6 +1,5 @@
 import Header from "../Header";
 import Footer from "../Footer";
-import { Footer } from "../footer";
 import { LeagueTables } from "../LeagueTables";
 
 const MainLayout = ({children}) => {
