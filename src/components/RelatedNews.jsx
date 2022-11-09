@@ -12,7 +12,6 @@ export const RelatedNews = (props) => {
     for (let x = 0; x < keys.length; x++) {
         someRelatives.push(relatives[keys[x]])
     }
-    console.log(someRelatives)
 
     return (
         <div className="flex flex-col">
