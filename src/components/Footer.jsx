@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Footer = () => {
+const Footer = () => {
     const links = ['Home', 'Contact us', 'Terms of Service', 'Privacy Policy', 'Careers', 'Livescores']
 
     return (
@@ -15,3 +15,5 @@ export const Footer = () => {
         </div>
     )
 }
+
+export default Footer
